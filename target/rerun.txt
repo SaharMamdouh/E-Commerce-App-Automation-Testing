@@ -1,0 +1,2 @@
+file:src/main/resources/features/F09_SliderWrapper.feature:3:7
+file:src/main/resources/features/F10_FollowUsLinks.feature:11
