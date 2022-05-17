@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="323.404">
-<testcase classname="user create an account" name="signup with valid data" time="25.378">
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="329.442">
+<testcase classname="user create an account" name="signup with valid data" time="25.666">
 <system-out><![CDATA[Given user open the register page...........................................passed
 When user select the gender.................................................passed
 And insert personal data....................................................passed
@@ -10,7 +10,7 @@ And click on the register button............................................pass
 Then user signed up successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user could login to the website" name="user could login with valid data" time="17.947">
+<testcase classname="user could login to the website" name="user could login with valid data" time="18.079">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -18,7 +18,7 @@ And click on the login button...............................................pass
 Then user logged in successfully............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user could login to the website" name="user forgot the password" time="22.396">
+<testcase classname="user could login to the website" name="user forgot the password" time="23.112">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And click on the forgot password anchor tag.................................passed
@@ -27,7 +27,7 @@ And Click on the recover button.............................................pass
 Then message says that the mail sent successfully appeared..................passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can switch between currencies" name="user switch between currencies" time="22.275">
+<testcase classname="logged user can switch between currencies" name="user switch between currencies" time="21.958">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -36,7 +36,7 @@ Then user logged in successfully............................................pass
 When user click on the drop down menu in the top left and select the currency.passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can search for any product" name="user search for any product by writing the name of it in the search bar" time="19.908">
+<testcase classname="logged user can search for any product" name="user search for any product by writing the name of it in the search bar" time="20.582">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -47,7 +47,7 @@ And click on search button..................................................pass
 Then a new page that contain all products with that name will be displayed..passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can search for any product" name="user search for any product by writing the SKU of it in the search bar" time="19.654">
+<testcase classname="logged user can search for any product" name="user search for any product by writing the SKU of it in the search bar" time="19.89">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -58,7 +58,7 @@ And click on search button..................................................pass
 Then a new page that contain the product with that SKU will be displayed....passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can select different category" name="user select category and open subcategory" time="23.727">
+<testcase classname="logged user can select different category" name="user select category and open subcategory" time="23.375">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -69,7 +69,7 @@ And choose the subcategory from it..........................................pass
 Then a new page of detailed info about this sub cateogory is opened.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can select different tags" name="user choose different tags after open a certain category" time="26.676">
+<testcase classname="logged user can select different tags" name="user choose different tags after open a certain category" time="25.764">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -80,7 +80,7 @@ And user select a random tag................................................pass
 Then all products with that tag will be displayed...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can add products to shopping cart" name="user select a certain product and add it to shopping cart" time="27.112">
+<testcase classname="logged user can add products to shopping cart" name="user select a certain product and add it to shopping cart" time="28.525">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -92,7 +92,7 @@ And user click on the add to cart button....................................pass
 Then a new message displayed to confirm that adding.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="logged user can add products to shopping cart" name="number of items in the shopping cart incremeneted after adding a new item to it" time="29.012">
+<testcase classname="logged user can add products to shopping cart" name="number of items in the shopping cart incremeneted after adding a new item to it" time="31.852">
 <system-out><![CDATA[Given user select login from the top right bar and navigate to the login page.passed
 When user enter a valid email...............................................passed
 And enter a valid password..................................................passed
@@ -106,18 +106,18 @@ And user get the number of items in the shopping cart.......................pass
 Then the number of items in the shopping cart increased.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="guest user can add product to wishlist" name="user add the chosen product to the wishlist" time="10.266">
+<testcase classname="guest user can add product to wishlist" name="user add the chosen product to the wishlist" time="10.716">
 <system-out><![CDATA[When user click on add to wish button.......................................passed
 Then a new message displayed to confirm that adding to the wishing list.....passed
 ]]></system-out>
 </testcase>
-<testcase classname="guest user can add product to wishlist" name="the number of items in the wishlist incremented after adding the selected item to it" time="10.844">
+<testcase classname="guest user can add product to wishlist" name="the number of items in the wishlist incremented after adding the selected item to it" time="10.51">
 <system-out><![CDATA[When user click on add to wish button.......................................passed
 And user get the number of wishlist item after adding the product...........passed
 Then number of wishlist items increased.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="user will be able to open sliders through the home page" name="first slider is clickable on home page" time="12.752">
+<testcase classname="user will be able to open sliders through the home page" name="first slider is clickable on home page" time="11.717">
 <failure message="expected [https://https://demo.nopcommerce.com/iphone-6s] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on the first slider.........................................passed
 Then relative product for first slider is displayed.........................failed
 
@@ -133,48 +133,33 @@ java.lang.AssertionError: expected [https://https://demo.nopcommerce.com/iphone-
 	at ✽.relative product for first slider is displayed(file:///C:/Users/HP/IdeaProjects/E_CommerceApp/src/main/resources/features/F09_SliderWrapper.feature:5)
 ]]></failure>
 </testcase>
-<testcase classname="user will be able to open sliders through the home page" name="second slider is clickable on home page" time="9.135">
-<failure message="element not interactable&#10;  (Session info: chrome=101.0.4951.64)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'DESKTOP-NDG0I62', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2846af72c85dc0e9ed9ac33c0cd64039, clickElement {id=a2dedfcc-5317-4390-b57f-90b154a2890f}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52293/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (2846af72c85dc0e9ed9ac33c0cd64039)] -&gt; xpath: //*[@id=&quot;nivo-slider&quot;]/a[2]]&#10;Session ID: 2846af72c85dc0e9ed9ac33c0cd64039" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[When user click on the second slider........................................failed
-Then relative product for second slider is displayed........................skipped
+<testcase classname="user will be able to open sliders through the home page" name="second slider is clickable on home page" time="10.998">
+<failure message="expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]" type="java.lang.AssertionError"><![CDATA[When user click on the second slider........................................passed
+Then relative product for second slider is displayed........................failed
 
 StackTrace:
-org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=101.0.4951.64)
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'DESKTOP-NDG0I62', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2846af72c85dc0e9ed9ac33c0cd64039, clickElement {id=a2dedfcc-5317-4390-b57f-90b154a2890f}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52293}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52293/devtoo..., se:cdpVersion: 101.0.4951.64, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (2846af72c85dc0e9ed9ac33c0cd64039)] -> xpath: //*[@id="nivo-slider"]/a[2]]
-Session ID: 2846af72c85dc0e9ed9ac33c0cd64039
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at org.example.stepDefinitions.D09_SliderWrapperDef.clickOnSecondSlider(D09_SliderWrapperDef.java:27)
-	at ✽.user click on the second slider(file:///C:/Users/HP/IdeaProjects/E_CommerceApp/src/main/resources/features/F09_SliderWrapper.feature:8)
+java.lang.AssertionError: expected [https://demo.nopcommerce.com/nokia-lumia-1020] but found [https://demo.nopcommerce.com/]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at org.example.stepDefinitions.D09_SliderWrapperDef.relativeProductIsDisplayed(D09_SliderWrapperDef.java:33)
+	at ✽.relative product for second slider is displayed(file:///C:/Users/HP/IdeaProjects/E_CommerceApp/src/main/resources/features/F09_SliderWrapper.feature:9)
 ]]></failure>
 </testcase>
-<testcase classname="guest user can redirected to different links through the home page" name="user click on facebook icon and navigated to the facebook page" time="12.035">
+<testcase classname="guest user can redirected to different links through the home page" name="user click on facebook icon and navigated to the facebook page" time="11.428">
 <system-out><![CDATA[When user click on facebook font awesome icon...............................passed
 Then facebook link is opened in a new tap...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="guest user can redirected to different links through the home page" name="user click on twitter icon and navigated to the twitter page" time="10.587">
+<testcase classname="guest user can redirected to different links through the home page" name="user click on twitter icon and navigated to the twitter page" time="10.478">
 <system-out><![CDATA[When user click on twitter font awesome icon................................passed
 Then twitter link is opened in a new tap....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="guest user can redirected to different links through the home page" name="user click on rss icon and navigated to the twitter page" time="10.773">
+<testcase classname="guest user can redirected to different links through the home page" name="user click on rss icon and navigated to the twitter page" time="10.845">
 <failure message="Index: 1, Size: 1" type="java.lang.IndexOutOfBoundsException"><![CDATA[When user click on rss font awesome icon....................................passed
 Then rss link is opened in a new tap........................................failed
 
@@ -186,7 +171,7 @@ java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
 	at ✽.rss link is opened in a new tap(file:///C:/Users/HP/IdeaProjects/E_CommerceApp/src/main/resources/features/F10_FollowUsLinks.feature:13)
 ]]></failure>
 </testcase>
-<testcase classname="guest user can redirected to different links through the home page" name="user click on youtube icon and navigated to the twitter page" time="12.572">
+<testcase classname="guest user can redirected to different links through the home page" name="user click on youtube icon and navigated to the twitter page" time="13.525">
 <system-out><![CDATA[When user click on youtube font awesome icon................................passed
 Then youtube link is opened in a new tap....................................passed
 ]]></system-out>
