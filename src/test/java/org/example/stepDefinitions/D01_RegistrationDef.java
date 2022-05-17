@@ -33,7 +33,7 @@ public class D01_RegistrationDef {
     public void enterUserName() throws InterruptedException {
      register.FirstName().sendKeys("Sahar");
      register.LastName().sendKeys("Mamdouh");
-     register.Email().sendKeys("SaharMamdouh2025@gmail.com");
+     register.Email().sendKeys("SaharMamdouh2026@gmail.com");
         //select the day of date of birth
         Select drpDay = new Select(Hooks.driver.findElement(register.DayOfBirth()));
         drpDay.selectByValue("31");

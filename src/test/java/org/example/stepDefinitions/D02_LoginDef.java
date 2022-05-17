@@ -23,7 +23,7 @@ public class D02_LoginDef {
 
     @When("user enter a valid email")
     public void EnterMail() {
-        login.enterEmail().sendKeys("SaharMamdouh2025@gmail.com");
+        login.enterEmail().sendKeys("SaharMamdouh2026@gmail.com");
     }
 
     @And("enter a valid password")
@@ -54,7 +54,7 @@ public class D02_LoginDef {
 
     @And("insert the email again")
     public void EnterMailAgain() {
-        login.enterEmail().sendKeys("SaharMamdouh2025@gmail.com");
+        login.enterEmail().sendKeys("SaharMamdouh2026g@gmail.com");
     }
 
     @And("Click on the recover button")
